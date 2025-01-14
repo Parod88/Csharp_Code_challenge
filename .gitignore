@@ -1,0 +1,38 @@
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de configuración del entorno de trabajo
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales y de logs
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# Archivos generados por el sistema
+*.DS_Store
+Thumbs.db
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de configuración de Rider/JetBrains
+.idea/
+*.DotSettings.user
+
+# Archivos de compilación para contenedores
+docker-compose.override.yml
+.env
+
+# Archivos generados al restaurar dependencias
+!global.json
